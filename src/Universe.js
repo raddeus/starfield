@@ -13,7 +13,7 @@ export default class Universe extends THREE.Scene {
     }
 
     loadSkyBox() {
-        const imagePrefix = "skybox/unity-2048/sky_";
+        const imagePrefix = "skybox/unity-1024/sky_";
         const imageSuffix = ".png";
         const directions  = ["left", "right", "up", "down", 'front', 'back'];
         const urls = directions.map(direction => imagePrefix + direction + imageSuffix);
